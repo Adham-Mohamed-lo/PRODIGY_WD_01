@@ -1,0 +1,105 @@
+/* Resetting default margin and padding */
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', 'Roboto', "Segoe UI", Tahoma, Verdana, sans-serif;
+  background-color: white;
+}
+
+/* Navigation bar styling */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(52, 58, 65);
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: top 0.3s ease;
+}
+
+#navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+  color: rgb(88, 86, 212);
+}
+
+#navbar ul li.active a {
+  color: rgb(88, 86, 212);
+}
+
+/* Section styling */
+.section {
+  padding: 50px;
+  color: rgb(33, 37, 41);
+}
+
+/* Individual section styling */
+#home {
+  background-color: rgb(119, 181, 254);
+}
+
+#about {
+  background-color: rgb(90, 166, 252);
+}
+
+#services {
+  background-color: rgb(67, 146, 241);
+}
+
+#contact {
+  background-color: rgb(56, 103, 214);
+}
+
+/* Heading and paragraph styling */
+h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: white;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Contact information styling */
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: white;
+}
